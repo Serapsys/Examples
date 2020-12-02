@@ -15,10 +15,11 @@ const UpdatedComponent = (OriginalComponent) => {
         return { count: prevState.count + 1 };
       });
     };
+
     render() {
       return (
         <OriginalComponent
-          {...(count = this.state.count)}
+          count={this.state.count}
           incrementCount={this.incrementCount}
         />
       );

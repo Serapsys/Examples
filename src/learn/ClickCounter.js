@@ -10,3 +10,4 @@ class ClickCounter extends Component {
 }
 
 export default UpdatedComponent(ClickCounter);
+// export default ClickCounter;

@@ -23,9 +23,11 @@ class CustomText extends React.Component {
         <input
           type="button"
           value="Focus the text input"
-          onClick={this.focusTextInput}
+          // onClick={this.focusTextInput}
         />
       </div>
     );
   }
 }
+
+export default CustomText;

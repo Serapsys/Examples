@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "styled-components";
+// import { Button } from "styled-components";
 
 // Context lets us pass a value deep into the component tree
 // without explicitly threading it through every component.
@@ -11,7 +11,7 @@ class WithContext extends React.Component {
     // Any component can read it, no matter how deep it is.
     // In this example, we're passing "dark" as the current value.
     return (
-      <ThemeContext.Provider value="dark">
+      <ThemeContext.Provider value="light">
         {" "}
         <Toolbar />
       </ThemeContext.Provider>
